@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration | For Individuals</title>
+</head>
+
+<body>
+    <article>
+        <section class="info">
+            <img src="./assets/images/logo.svg" alt="login">
+            <h1>For Individuals</h1>
+            <p class="hideonmobile">Start benefiting from the wellness experience. For companies looking on increasing
+                productivity, and
+                improving organization wellness.</p>
+            <p class="hideondesktop">Inspiring wholesome harmony for the mind, body and spirit, for everyone,
+                everywhere.</p>
+        </section>
+
+
+        <section class="form">
+            <fieldset>
+                <div class="inputdiv">
+                    <label for="firstName">First Name<span>*</span></label>
+                    <input type="text" placeholder="Enter first name" id="firstName" required aria-required="true" />
+                </div>
+                <div class="inputdiv">
+                    <label for="lastName">Last Name<span>*</span></label>
+                    <input type="text" placeholder="Enter last name" id="lastName" required aria-required="true" />
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <div class="inputdiv">
+                    <label for="gender">Gender<span>*</span></label>
+                    <select id="gender" required aria-required="true">
+                        <option value="">Select here</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="female">Other</option>
+                    </select>
+                </div>
+                <div class="inputdiv">
+                    <label for="dob">Date of Birth<span>*</span></label>
+                    <input type="date" placeholder="Select age group" id="dob" required aria-required="true" />
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <div class="inputdiv">
+                    <label for="weight">Weight(KG)<span>*</span></label>
+                    <input type="text" placeholder="Enter weight" id="weight" required aria-required="true" />
+                </div>
+                <div class="inputdiv">
+                    <label for="weight">Height(CM)<span>*</span></label>
+                    <input type="text" placeholder="Enter weight" id="weight" required aria-required="true" />
+                </div>
+            </fieldset>
+
+
+
+            <div class="inputdiv">
+                <label for="activity level">Activity Level<span>*</span></label>
+                <select id="activity level" required aria-required="true">
+                    <option value="">Select your activity level</option>
+                    <option value="inactive">Inactive: Idle all day</option>
+                    <option value="light">Light: 10 - 15 minutes of walking</option>
+                    <option value="mooderate">Moderate: 20 - 45 minutes of walking</option>
+                    <option value="active">Very Active: Visits gym at least 4 times daily</option>
+
+                </select>
+            </div>
+
+            <div class="inputdiv">
+                <label for="passsword">Password<span>*</span></label>
+                <input type="passsword" placeholder="********" id="passsword" required aria-required="true" />
+            </div>
+
+
+
+            <footer>
+                <button form="registration_form" type="submit">Proceed</button>
+                <h6>
+                    By clicking Register, you agree to our
+                    <a href="/">Terms of Use</a>
+                    and our
+                    <a href="/">Privacy Policy.</a>
+                </h6>
+            </footer>
+        </section>
+    </article>
+
+</body>
+
+</html>
